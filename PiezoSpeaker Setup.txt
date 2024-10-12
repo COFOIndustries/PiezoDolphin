@@ -1,0 +1,20 @@
+How to Set Up the Piezoelectric Speaker:
+1. Connect the Piezoelectric Speaker to the Raspberry Pi
+
+The piezoelectric speaker has two pins, and you’ll connect them to the Raspberry Pi’s GPIO.
+
+    Positive ( + ) Pin: Connect this pin to one of the Raspberry Pi’s GPIO output pins (e.g., GPIO18).
+    Negative ( - ) Pin: Connect this pin to a GND (ground) pin on the Raspberry Pi.
+
+Here’s a step-by-step guide on wiring:
+
+    Identify which pin on the piezo speaker is positive and which is negative.
+    Use jumper wires to connect:
+        Positive pin of the piezo speaker to GPIO18 (or another GPIO pin of your choice).
+        Negative pin of the piezo speaker to GND on the Raspberry Pi.
+    Optionally, place a resistor between the positive terminal and the GPIO pin to limit the current.
+
+Pin Layout Example:
+
+    GPIO Pin 18 (PWM output) → Positive Pin of piezo
+    GND → Negative Pin of piezo
