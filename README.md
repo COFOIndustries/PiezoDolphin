@@ -172,6 +172,7 @@ Since ultrasonic sound is beyond human hearing, you won’t hear it. To verify t
 
 - **MATLAB or Audacity for Audio Testing**: Use MATLAB or Audacity for creating and modulating ultrasonic frequencies.
 
+- ** i also used Audacity to mess with any pre-recorded vocals/vocals found in discovery to allow for modulation to the desired ultra sonic frequency.
 ---
 
 
